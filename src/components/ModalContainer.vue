@@ -1,7 +1,7 @@
 <template>
   <div>
     <transition name="modal" addfn="close">
-      <div v-if="isOpen == true">
+      <div v-if="isOpen">
         <div class="overlay">
           <div class="modal">
             <h1>Modal heading</h1>
